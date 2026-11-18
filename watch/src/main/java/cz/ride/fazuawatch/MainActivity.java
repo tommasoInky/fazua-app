@@ -109,7 +109,6 @@ public final class MainActivity extends Activity {
     private Button button(String label, View.OnClickListener listener) {
         Button b = new Button(this);
         b.setText(label);
-        b.setTextAllCaps(false);
         b.setOnClickListener(listener);
         return b;
     }
